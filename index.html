@@ -14,7 +14,7 @@
     const email  = params.get("email");
     const flow   = params.get("paypal");      // return | cancel | null
     const token  = params.get("token");       // orderId que renvoie PayPal sur return
-    const WEBAPP = "https://script.google.com/macros/s/AKfycbyDJNGsyi2kkQw2_i9DUPk5YHXUVP_OXMYoZdALU8anLNjQKPd9IgWgLjegkaIFU_rX/exec";
+    const WEBAPP = "https://script.google.com/macros/s/AKfycbxJ8nhdXhdy5YFv8-ATcpEpU5MK_LbmENJ33hHz6DwEHsAVvQ5w9I_aV-80wN9h8lWvpQ/exec";
 
     async function callWebApp(url) {
       const res = await fetch(url, { method: "GET" });
